@@ -63,4 +63,4 @@ class Tabs {
 }
 
 let tabs = document.querySelectorAll(".Tabs");
-tabs = Array.from(allTabs).map(tabs => new Tabs(tabs));
+tabs = Array.from(tabs).map(tabs => new Tabs(tabs));
